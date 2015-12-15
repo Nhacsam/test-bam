@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nhacsam/test-bam/issues"
   },
-  "homepage": "https://github.com/Nhacsam/test-bam#readme"
+  "homepage": "https://github.com/Nhacsam/test-bam#readme",
+  "dependencies": {
+    "progress": "^1.1.8"
+  }
 }
