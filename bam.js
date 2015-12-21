@@ -4,7 +4,7 @@
  */
 
 var ProgressBar = require('progress');
- 
+
 var bar = new ProgressBar(':bar', { total: 10 });
 var timer = setInterval(function () {
   bar.tick();
@@ -20,7 +20,9 @@ var spawn = require('child_process').spawn;
 module.exports = {
   scriptVersion: '0.1.0',
   dirName: 'bam-test',
-  linkedRepos: [],
+  linkedRepos: [
+    'nhacsam/dotfiles'
+  ],
   install: function() {
     // run at the installation. Do not accept any argument
     spawn('ls', [], {stdio: 'inherit'});
